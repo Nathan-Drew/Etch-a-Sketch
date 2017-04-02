@@ -1,0 +1,38 @@
+* {
+	margin:0;
+}
+
+#sketchBoard {
+	margin: 0.5% auto;
+	border: 30px solid red;
+	border-radius: 20px;
+	width: 550px;
+	height: 550px;
+}
+
+.square {
+	height: 34.375px; width: 34.375px;
+	display: inline-block;
+	float: left;
+}
+
+button {
+	margin: 1.5%;
+	display: block;
+	width: 7%; height: 45px;
+	font-size: 1em;
+	display: inline-block;
+}
+
+.wrapper {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#reset {
+	margin-right: 250px; 
+}
+
+.button-highlight {
+	background: darkgrey;
+}
